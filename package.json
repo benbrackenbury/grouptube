@@ -1,0 +1,16 @@
+{
+  "name": "grouptube",
+  "version": "1.0.0",
+  "description": "Lets multiple people watch a youtube video at once",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Ben Brackenbury",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1",
+    "socket.io": "^2.0.4"
+  }
+}

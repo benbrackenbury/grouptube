@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>GroupTube</title>
+</head>
+<body>
+    <h1 id="title">GroupTube</h1>
+    <div class="idFormDiv" style="display:flex;">
+        <input id="videoID" ref="videoID" placeholder="Video ID" value="qH4t6J1LaAk" type="text">
+        <button id="LoadButton" onclick="LoadVideo()">Load</button>
+    </div>
+    <div class="videoContainer">
+        <div id="player"></div>
+    </div>
+</body>
+</html>
